@@ -46,6 +46,7 @@ About Page
 
 		.DateAndTime{
 			@include col(4,12);
+
 		}
 
 		.address{
@@ -81,6 +82,7 @@ About Page
 		.googlemap{
 			clear: both;
 		}
+
 		
 		
 
@@ -116,6 +118,8 @@ About Page
 			clear: both;
 		}
 
+		
+
 
 
 	}//end large breakpoint
@@ -126,6 +130,16 @@ About Page
 	@include breakpoint(x-large){
 		background-color: blue;
 		color: white;
+		.trackdirection{
+			//@include col(3,12)
+		}
+
+	.directions-block{
+			@include col(3,12);
+
+	}
+
+
 
 	}//end xlarge breakpoint
 

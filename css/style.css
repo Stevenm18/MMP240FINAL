@@ -620,7 +620,7 @@ Index Page (homepage)
     width: 33.33333%;
     padding: 0 15px;
     float: left;
-    background-color: #FFE4C4;
+    background-color: #808080;
   }
   /* line 42, ../scss/pages/_index.scss */
   #home .banner {
@@ -823,13 +823,13 @@ About Page
   padding: 0 15px;
   float: left;
 }
-/* line 51, ../scss/pages/_about.scss */
+/* line 52, ../scss/pages/_about.scss */
 #about .address {
   width: 33.33333%;
   padding: 0 15px;
   float: left;
 }
-/* line 55, ../scss/pages/_about.scss */
+/* line 56, ../scss/pages/_about.scss */
 #about .googlemap {
   clear: both;
 }
@@ -838,25 +838,25 @@ About Page
   #about {
     background-color: red;
   }
-  /* line 69, ../scss/pages/_about.scss */
+  /* line 70, ../scss/pages/_about.scss */
   #about .about {
     width: 66.66667%;
     padding: 0 15px;
     float: left;
   }
-  /* line 73, ../scss/pages/_about.scss */
+  /* line 74, ../scss/pages/_about.scss */
   #about .DateAndTime {
     width: 33.33333%;
     padding: 0 15px;
     float: left;
   }
-  /* line 77, ../scss/pages/_about.scss */
+  /* line 78, ../scss/pages/_about.scss */
   #about .address {
     width: 33.33333%;
     padding: 0 15px;
     float: left;
   }
-  /* line 81, ../scss/pages/_about.scss */
+  /* line 82, ../scss/pages/_about.scss */
   #about .googlemap {
     clear: both;
   }
@@ -872,25 +872,25 @@ About Page
   #about {
     background-color: yellow;
   }
-  /* line 103, ../scss/pages/_about.scss */
+  /* line 105, ../scss/pages/_about.scss */
   #about .about {
     width: 50%;
     padding: 0 15px;
     float: left;
   }
-  /* line 107, ../scss/pages/_about.scss */
+  /* line 109, ../scss/pages/_about.scss */
   #about .DateAndTime {
     width: 25%;
     padding: 0 15px;
     float: left;
   }
-  /* line 111, ../scss/pages/_about.scss */
+  /* line 113, ../scss/pages/_about.scss */
   #about .address {
     width: 25%;
     padding: 0 15px;
     float: left;
   }
-  /* line 115, ../scss/pages/_about.scss */
+  /* line 117, ../scss/pages/_about.scss */
   #about .googlemap {
     clear: both;
   }
@@ -900,6 +900,12 @@ About Page
   #about {
     background-color: blue;
     color: white;
+  }
+  /* line 137, ../scss/pages/_about.scss */
+  #about .directions-block {
+    width: 25%;
+    padding: 0 15px;
+    float: left;
   }
 }
 @media only screen and (min-width: 90em) {
